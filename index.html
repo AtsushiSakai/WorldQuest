@@ -12,8 +12,19 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="white">
 <link href="static/css/bootstrap.min.css" rel="stylesheet">
-<link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/2393628/githubpages/WorldQuest/iconified/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="https://dl.dropboxusercontent.com/u/2393628/githubpages/WorldQuest/iconified/apple-touch-icon-152x152.png"/>
+<link rel="shortcut icon" href="static/imgs/iconified/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="static/imgs/iconified/apple-touch-icon-152x152.png"/>
+
+<link rel="stylesheet" type="text/css" href="static/css/addtohomescreen.css">
+<script src="static/js/addtohomescreen.js"></script>
+<script>
+addToHomescreen({
+    appID:"AddToHomescreenWorldQuest",
+    lifespan:0
+    });
+</script>
+
+
 
 <!--
 TODO
@@ -87,7 +98,7 @@ TODO
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="http://myenigma.hatenablog.com/">
-        <img style="vertical-align:middle;" height="28" src="https://dl.dropboxusercontent.com/u/2393628/heroku/common/myenigmaLogo.png"/></a>
+        <img style="vertical-align:middle;" height="28" src="static/imgs/common/myenigmaLogo.png"/></a>
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-left">
